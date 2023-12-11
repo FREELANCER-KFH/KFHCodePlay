@@ -8,10 +8,14 @@ function main() {
     const js_code = document.querySelector('.js-code textarea');
     const result = document.querySelector('#result');
 
+    html_code.value = `<h1>Hello World!</h1>`;
+    css_code.value = `h1 { color: red; }`;
+    js_code.value = `console.log('Hello World!');`;
+
     function run() {
-        localStorage.setItem('html_code', html_code.value);
-        localStorage.setItem('css_code', css_code.value);
-        localStorage.setItem('js_code', js_code.value);
+        localStorage.setItem('html_code', html_code);
+        localStorage.setItem('css_code', css_code);
+        localStorage.setItem('js_code', js_code);
     
         result.contentDocument.body.innerHTML = `<style>${localStorage.css_code}</style>` + localStorage.html_code;
         result.contentWindow.eval(localStorage.js_code);

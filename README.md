@@ -1,4 +1,5 @@
 # KFHCodePlay
+Link for access the project: https://kfhcodeplay.blogspot.com/
 
 **KFHCodePlay** is an advanced online code editor that transforms the way you engage with code. Crafted to empower developers of all skill levels, it delivers an intuitive and collaborative environment for writing, testing, and sharing code in real-time.
 
@@ -16,7 +17,7 @@
 
 Getting started with KFHCodePlay is simple:
 
-1. **Clone the Repository:** Use `git clone https://github.com/yourusername/KFHCodePlay.git` to obtain the codebase.
+1. **Clone the Repository:** Use `git clone https://github.com/FREELANCER-KFH/KFHCodePlay.git` to obtain the codebase.
 
 2. **Open in Browser:** Launch the editor by opening `index.html` in your web browser.
 
